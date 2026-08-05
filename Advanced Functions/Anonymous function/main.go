@@ -6,6 +6,11 @@ import "fmt"
 
 func main() {
 	//	immediate call
+
+	func() {
+		fmt.Println("hello")
+	}()
+
 	f := func(a, b int) int {
 		return a + b
 	}
